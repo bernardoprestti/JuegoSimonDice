@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>simon dice</title>
+</head>
+<body>
+    <p id="encabezado">Bienvenidos a Simon Dice, presiona "comenzar" para iniciar el juego</p>
+    <div id="tablero">
+        <div style="display: none;" class="color rojo" data-color="rojo"></div>
+        <div style="display: none;" class="color amarillo" data-color="amarillo"></div>
+        <div style="display: none;" class="color azul" data-color="azul"></div>
+        <div style="display: none;" class="color verde" data-color="verde"></div>
+        <button id="comenzar">Comenzar</button>
+    </div>
+    <div id="puntuaciones" style="display: none;">
+        <table id="tabla-de-puntos">
+            <tr>
+                <th>Jugador</td>
+                <th>Ronda</td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
