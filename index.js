@@ -42,7 +42,7 @@ function cantidadJugadores(){
 function sumarRondaJugadorActual(jugador, ronda){
     const $jugador=document.querySelector(`#puntos-${jugador}`);
     $jugador.innerText=ronda;
-}
+};
 
 function ganador(){
     let mejorPuntaje=-1;
